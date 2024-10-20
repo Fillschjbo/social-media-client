@@ -10,8 +10,8 @@
     "prettier": "^3.3.3"
   },
   "scripts": {
-    "lint": "eslint src/js/api/auth/login.test.js",
-    "lint-fix": "eslint src/js/api/auth/login.test.js --cache --fix",
+    "lint": "eslint src/js/api/auth/tests.test.js",
+    "lint-fix": "eslint src/js/api/auth/tests.test.js --cache --fix",
     "prepare": "husky install",
     "test": "jest --coverage"
   },
